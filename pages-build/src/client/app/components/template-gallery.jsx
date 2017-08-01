@@ -52,7 +52,8 @@ class TemplateGallery extends React.Component {
             jsonRepoMetatdata.templates.filter(
               (templateMetadata) => {
                 if(this.props.tag) {
-                  return templateMetadata.tags.includes(this.props.tag);
+
+                  return templateMetadata.tags && templateMetadata.tags.includes(this.props.tag);
                 } else {
                   return true;
                 }
