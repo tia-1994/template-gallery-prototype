@@ -1,0 +1,29 @@
+.appc-header {
+  height: 60px;
+  background-color: #1d3649;
+  color: #fff;
+  padding-right: 60px;
+  display: flex;
+}
+
+
+.appc-header__side-nav-toggle {
+    background-color: #734098;
+    width: 60px;
+    height: 100%;
+}
+
+.appc-header__product-name-link {
+    color: #fff;
+    outline: none;
+    text-decoration: none;    
+    .appc-header__product-name {
+        white-space: nowrap;
+        margin-top: 11px;
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: 16px;
+        padding-top: 11px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,63 @@
+body {
+  font-family: IBM Helvetica, Helvetica Neue, HelveticaNeue, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.button {
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    display: inline-block;
+    min-width: 104px;
+    height: 40px;
+    font-family: IBM Helvetica, Helvetica Neue, HelveticaNeue, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button--secondary {
+    color: #602797;
+    border: 1px solid #602797;
+    line-height: 38px;
+    padding: 0 15px;
+}
+
+.button--secondary:hover {
+    color: white;
+    border-color: #9753e1;
+    background-color: #9753e1;
+}
+
+.button.button--flat:hover {
+    fill: #1f57a4;
+
+}
+
+.button.button--flat {
+    fill: #256dd3;
+    color: #256dd3;
+    border: 0;
+}
+
+.button--flat:hover {
+    color: #1f57a4;
+    text-decoration: underline;
+}
+
+.card {
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    position: relative;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+  -webkit-box-shadow:0 4px 8px 0 rgba(0,0,0,.3);
+  box-shadow:0 4px 8px 0 rgba(0,0,0,.3)
+}
