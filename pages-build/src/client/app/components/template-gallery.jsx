@@ -27,10 +27,12 @@ var jsonRepoMetatdata = {
       name: "When an Opportunity in Salesforce is Closed - Create associate Order Invoice for Accounting"
     },
     {
-      name: "Order to Cash Cycle"
+      name: "Order to Cash Cycle",
+      tags: ["O2C"]
     },
     {
-      name: "CPQ Cycle"
+      name: "CPQ Cycle",
+      tags: ["CPQ", "SAP"]
     },
     {
       name: "TrailHeaDX Demo with conditional branching"
