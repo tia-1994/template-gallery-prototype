@@ -29,6 +29,9 @@
     },
     {
       "name": "TrailHeaDX Demo with conditional branching"
+    },
+    {
+      "name": "Sync tickets and comments in (ZenDesk, JIRA, ServiceNow) with Salesforce Case and Comments"
     }
   ]
 }
