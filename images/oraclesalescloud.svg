@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs></defs>
+  <title>sales</title>
+  <circle id="Background" fill="#ff0000" cx="50" cy="50" r="50"/>
+  <polygon fill="#fff" points="23.07 67.8 23.07 27.4 21.14 27.4 21.14 67.8 21.14 69.73 23.07 69.73 78.86 69.73 78.86 67.8 23.07 67.8"/>
+  <rect fill="#fff" x="26.91" y="48.56" width="13.47" height="15.39"/>
+  <path fill="#fff" d="M57.7,33.17H44.23V64H57.7ZM53.85,60.11H48.08V37h5.77Z"/>
+  <rect fill="#fff" x="61.54" y="42.79" width="13.47" height="1.92"/>
+  <rect fill="#fff" x="61.54" y="46.64" width="13.47" height="1.92"/>
+  <rect fill="#fff" x="61.54" y="50.49" width="13.47" height="1.92"/>
+  <rect fill="#fff" x="61.54" y="54.34" width="13.47" height="1.92"/>
+  <rect fill="#fff" x="61.54" y="58.18" width="13.47" height="1.92"/>
+  <rect fill="#fff" x="61.54" y="62.03" width="13.47" height="1.92"/>
+</svg>

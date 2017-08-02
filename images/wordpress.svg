@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>CMS</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Categories" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CMS">
+            <ellipse id="Background" fill="#0087BE" cx="50" cy="50" rx="50" ry="50"></ellipse>
+            <g id="cms" transform="translate(25.000000, 30.000000)" fill="#FFFFFF">
+                <path d="M28.3333333,11.6666667 L5,11.6666667 L5,35 L28.3333333,35 L28.3333333,11.6666667 Z M26.6666667,14.5116667 L26.6666667,32.155 L17.845,23.3333333 L26.6666667,14.5116667 Z M16.6666667,22.155 L7.845,13.3333333 L25.4883333,13.3333333 L16.6666667,22.155 Z M15.4883333,23.3333333 L6.66666667,32.155 L6.66666667,14.5116667 L15.4883333,23.3333333 Z M16.6666667,24.5116667 L25.4883333,33.3333333 L7.845,33.3333333 L16.6666667,24.5116667 Z" id="Fill-1"></path>
+                <polygon id="Fill-3" points="31.6666667 11.6666667 45 11.6666667 45 35 31.6666667 35"></polygon>
+                <path d="M0,0 L0,6.66666667 L0,40 L50,40 L50,6.66666667 L50,0 L0,0 Z M48.3333333,38.3333333 L1.66666667,38.3333333 L1.66666667,8.33333333 L48.3333333,8.33333333 L48.3333333,38.3333333 Z" id="Fill-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+  </defs>
+  <title>messaging</title>
+  <circle id="Background" fill="#E32430" cx="50" cy="50" r="50"/>
+  <path fill="#fff" d="M69.85,76.33,52.61,66.17h-29V31.67H76.36v34.5H69.85ZM27.81,62H53.75l11.93,7V62h6.51V35.84H27.81Z"/>
+  <rect fill="#fff" x="34.23" y="42.56" width="31.08" height="4.17"/>
+  <rect fill="#fff" x="34.23" y="50.9" width="19.66" height="4.17"/>
+</svg>

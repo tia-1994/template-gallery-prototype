@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>E-Commerce</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Categories" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="E-Commerce">
+            <ellipse id="Background" fill="#34313f" cx="50" cy="50" rx="50" ry="50"></ellipse>
+            <g id="ecommerce" transform="translate(22.000000, 24.000000)" fill="#FFFFFF">
+                <path d="M47.2004,14.4251538 L34.2335333,1.26911538 L31.4998,4.04273077 L41.7329333,14.4251538 L16.2670667,14.4251538 L26.5002,4.04273077 L23.7664667,1.26911538 L10.7996,14.4251538 L0,14.4251538 L0,20.3097692 L3.86666667,20.3097692 L7.73333333,49.7328462 L50.2666667,49.7328462 L54.1333333,20.3097692 L58,20.3097692 L58,14.4251538 L47.2004,14.4251538 Z M46.8814,45.8097692 L11.1186,45.8097692 L8.2824,24.2328462 L49.7176,24.2328462 L46.8814,45.8097692 Z" id="Fill-1"></path>
+                <polygon id="Fill-3" points="19.3333333 28.1559231 21.2666667 28.1559231 21.2666667 41.8866923 19.3333333 41.8866923"></polygon>
+                <polygon id="Fill-4" points="25.1333333 28.1559231 27.0666667 28.1559231 27.0666667 41.8866923 25.1333333 41.8866923"></polygon>
+                <polygon id="Fill-5" points="30.9333333 28.1559231 32.8666667 28.1559231 32.8666667 41.8866923 30.9333333 41.8866923"></polygon>
+                <polygon id="Fill-6" points="36.7333333 28.1559231 38.6666667 28.1559231 38.6666667 41.8866923 36.7333333 41.8866923"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
