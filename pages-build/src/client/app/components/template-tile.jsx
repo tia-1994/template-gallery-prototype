@@ -30,8 +30,11 @@ export default class TemplateTile extends React.Component {
         <Modal isOpen={this.state.showModal} onClose={() => this.closeModal()}>
           <div className="template-tile__use-template-dialog">
             <h1>Use template</h1>
-            copy the following URL and import it into App Connect
-            <input className="template-tile__use-template-url" type="url" required="" name="sharedLinkUrl" value="https://hosie.github.io/template-gallery-prototype/templates/001.json" readOnly="" tabIndex="0" autoFocus onFocus={this.handleFocus}></input>
+            Copy the following URL and import it into App Connect
+            <div className="template-tile__use-template-url">
+              <input className="template-tile__use-template-url-display" type="url" required="" name="sharedLinkUrl" value="https://hosie.github.io/template-gallery-prototype/templates/001.json" readOnly="" tabIndex="0" autoFocus onFocus={this.handleFocus}></input>
+              <button className="template-tile__use-template-url-copy">Copy</button>
+            </div>
           </div>
         </Modal>
         <div className="template-tile__summary">
