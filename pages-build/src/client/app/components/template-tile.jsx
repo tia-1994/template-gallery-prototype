@@ -36,13 +36,21 @@ export default class TemplateTile extends React.Component {
         </Modal>
         <div className="template-tile__summary">
           <div className="template-tile__application">
-            <svg style={{fill: '#00A0E4'}}>
-              <use xlinkHref="
-    https://hosie.github.io/template-gallery-prototype/images/salesforce.svg"></use>
-            </svg>
+            {
+              this.props.metadata.summary &&
+              this.props.metadata.summary.source &&
+              <img src={"https://hosie.github.io/template-gallery-prototype/images/" + this.props.metadata.summary.source + ".svg"}></img>
+            }
+
           </div>
           <div className="template-tile__wire"></div>
-          <div className="template-tile__application"></div>
+          <div className="template-tile__application">
+            {
+              this.props.metadata.summary &&
+              this.props.metadata.summary.target &&
+              <img src={"https://hosie.github.io/template-gallery-prototype/images/" + this.props.metadata.summary.target + ".svg"}></img>
+            }
+          </div>
 
         </div>
         <div className="template-tile__name">
