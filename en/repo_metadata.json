@@ -7,7 +7,11 @@
         "SAP",
         "O2C",
         "Salesforce"
-      ]
+      ],
+      "summary": {
+        "source": "salesforce",
+        "target": "sapodata"
+      }
     },
     {
       "name": "Lead conversion from Marketo",
@@ -16,7 +20,11 @@
         "Marketo",
         "Lead",
         "Salesforce"
-      ]
+      ],
+      "summary": {
+        "source": "marketo",
+        "target": "salesforce"
+      }
     },
     {
       "name": "When an Opportunity in Salesforce is Closed - Create associate Order Invoice for Accounting"
@@ -28,7 +36,11 @@
       "name": "CPQ Cycle"
     },
     {
-      "name": "TrailHeaDX Demo with conditional branching"
+      "name": "TrailHeaDX Demo with conditional branching",
+      "summary": {
+        "source": "salesforce",
+        "target": "watson"
+      }
     },
     {
       "name": "Sync tickets and comments in (ZenDesk, JIRA, ServiceNow) with Salesforce Case and Comments"
