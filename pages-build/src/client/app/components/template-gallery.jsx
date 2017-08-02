@@ -3,6 +3,8 @@ import * as ReactDOM from "react-dom";
 import TemplateTile from "./template-tile.jsx";
 import css from "./template-gallery.scss";
 
+import 'whatwg-fetch';
+
 var jsonRepoMetatdata = {
   templates : [
     {
@@ -27,12 +29,10 @@ var jsonRepoMetatdata = {
       name: "When an Opportunity in Salesforce is Closed - Create associate Order Invoice for Accounting"
     },
     {
-      name: "Order to Cash Cycle",
-      tags: ["O2C"]
+      name: "Order to Cash Cycle"
     },
     {
-      name: "CPQ Cycle",
-      tags: ["CPQ", "SAP"]
+      name: "CPQ Cycle"
     },
     {
       name: "TrailHeaDX Demo with conditional branching"
@@ -41,6 +41,17 @@ var jsonRepoMetatdata = {
 };
 
 class TemplateGallery extends React.Component {
+
+  componentDidMount() {
+    console.log("fetching");
+    fetch(`http://ot4i.github.io/iib-tutorials/en/repo_metadata.json`)
+    .then(response => {
+      console.log("got response")
+    })
+    .catch(err => {
+      console.log("got error");
+    });
+  }
 
 
   render() {
@@ -54,8 +65,7 @@ class TemplateGallery extends React.Component {
             jsonRepoMetatdata.templates.filter(
               (templateMetadata) => {
                 if(this.props.tag) {
-
-                  return templateMetadata.tags && templateMetadata.tags.includes(this.props.tag);
+                  return templateMetadata.tags.includes(this.props.tag);
                 } else {
                   return true;
                 }
