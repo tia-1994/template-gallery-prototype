@@ -42,11 +42,23 @@ var jsonRepoMetatdata = {
 
 class TemplateGallery extends React.Component {
 
+  constructor() {
+    super();
+    this.state = {
+      templates: [],
+    };
+  }
+
   componentDidMount() {
     console.log("fetching");
-    fetch(`http://ot4i.github.io/iib-tutorials/en/repo_metadata.json`)
+    fetch(`https://hosie.github.io/template-gallery-prototype/en/repo_metadata.json`)
     .then(response => {
       console.log("got response")
+      return response.json();
+
+    })
+    .then(responseJson => {
+      this.setState({templates: responseJson.templates});
     })
     .catch(err => {
       console.log("got error");
@@ -62,7 +74,7 @@ class TemplateGallery extends React.Component {
         <h1 className="template-gallery__heading">Templates</h1>
         <div className="template-gallery__tile-container">
           {
-            jsonRepoMetatdata.templates.filter(
+            this.state.templates.filter(
               (templateMetadata) => {
                 if(this.props.tag) {
                   return templateMetadata.tags.includes(this.props.tag);
