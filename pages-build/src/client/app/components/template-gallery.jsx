@@ -42,7 +42,7 @@ class TemplateGallery extends React.Component {
             this.state.templates.filter(
               (templateMetadata) => {
                 if(this.props.tag) {
-                  return templateMetadata.tags.includes(this.props.tag);
+                  return templateMetadata.tags && templateMetadata.tags.includes(this.props.tag);
                 } else {
                   return true;
                 }
