@@ -1,6 +1,5 @@
 {
-
-  "templates" : [
+  "templates": [
     {
       "name": "Order to cash with SAP",
       "description": "Automate your order to cash workflow when using SAP as the supply chain management system",
@@ -24,8 +23,8 @@
     },
     {
       "name": "Order to Cash Cycle"
-    {
     },
+    {
       "name": "CPQ Cycle"
     },
     {
