@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs></defs>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Categories">
+      <g id="Help-Desk">
+        <circle id="Background" fill="#e51b24" cx="50" cy="50" r="50"/>
+        <path id="help_desk" data-name="help desk" fill="#fff" d="M50.24,24A23.83,23.83,0,0,0,26.59,48q0,1,.08,2a4.88,4.88,0,1,0,4.39-1.09c0-.29,0-.59,0-.88a19.21,19.21,0,1,1,38.41,0v1.18H64.58V64h4.31a8.58,8.58,0,0,1-2.42,3c-2.85,2.37-7.24,3.41-11.4,3.81V69.2H45.41V77h9.67V75.3a36.09,36.09,0,0,0,8-1.55,19.55,19.55,0,0,0,7.11-3.93,10.66,10.66,0,0,0,3.68-6.18h0V48A23.83,23.83,0,0,0,50.24,24"/>
+      </g>
+    </g>
+  </g>
+  </g>
+</svg>

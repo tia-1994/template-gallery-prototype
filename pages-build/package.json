@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack -d --watch",
-    "build": "webpack -p && cp src/client/index.html src/client/public",
+    "build": "webpack -p && cp src/client/index.html src/client/public && cp -r src/client/app/images src/client/public",
     "deploy": "gh-pages -d src/client/public -a"
   },
   "author": "Hosie",

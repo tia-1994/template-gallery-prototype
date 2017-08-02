@@ -38,7 +38,7 @@ export default class TemplateTile extends React.Component {
           <div className="template-tile__application">
             <svg style={{fill: '#00A0E4'}}>
               <use xlinkHref="
-    https://appconnect.ibmcloud.com/wp-content/themes/appconnect-new/img/sprites/svg/sprite.svg#sprite-crm"></use>
+    https://hosie.github.io/template-gallery-prototype/images/salesforce.svg"></use>
             </svg>
           </div>
           <div className="template-tile__wire"></div>

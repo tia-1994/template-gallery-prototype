@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->    <title>Expense Management</title>    <desc>Created with Sketch.</desc>    <defs>    </defs>    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+  <g id="Expense-Management">
+    <circle id="Oval-Copy-13" fill="#1C8DCF" fill-rule="nonzero" cx="50" cy="50" r="50"></circle>
+    <circle id="Oval" fill="#FFFFFF" cx="41" cy="65" r="3"></circle>
+    <circle id="Oval" fill="#FFFFFF" cx="50" cy="65" r="3"></circle>
+    <circle id="Oval" fill="#FFFFFF" cx="59" cy="65" r="3"></circle>
+    <ellipse id="Oval" fill="#FFFFFF" cx="41" cy="56" rx="3" ry="3"></ellipse>
+    <ellipse id="Oval" fill="#FFFFFF" cx="50" cy="56" rx="3" ry="3"></ellipse>
+    <ellipse id="Oval" fill="#FFFFFF" cx="59" cy="56" rx="3" ry="3"></ellipse>
+    <circle id="Oval" fill="#FFFFFF" cx="41" cy="47" r="3"></circle>
+    <circle id="Oval" fill="#FFFFFF" cx="50" cy="47" r="3"></circle>
+    <circle id="Oval" fill="#FFFFFF" cx="59" cy="47" r="3"></circle>
+    <rect id="Rectangle" fill="#FFFFFF" x="38" y="32.1147541" width="23.9782609" height="7.21311475"></rect>
+    <rect id="path-1" stroke="#FFFFFF" stroke-width="4" x="29" y="23" width="42" height="54.1614751"></rect>
+  </g>
+</g>
+</svg>

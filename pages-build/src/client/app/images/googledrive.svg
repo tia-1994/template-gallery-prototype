@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>File Sharing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="File-Sharing">
+            <g id="Categories">
+                <g id="File-Sharing">
+                    <circle id="Background" fill="#009E55" cx="50" cy="50" r="50"></circle>
+                    <g id="file_sharing" transform="translate(26.000000, 31.000000)" fill="#FFFFFF">
+                        <polygon id="Fill-1" points="17.4736006 15.7370813 30.5788011 15.7370813 30.5788011 20.1456322 17.4736006 20.1456322"></polygon>
+                        <path d="M0,0.307153136 L0,9.12425493 L2.18420008,9.12425493 L2.18420008,37.7798357 L45.8682017,37.7798357 L45.8682017,9.12425493 L48.0524017,9.12425493 L48.0524017,0.307153136 L0,0.307153136 L0,0.307153136 L0,0.307153136 Z M6.55260024,33.3712849 L6.55260024,11.3285304 L41.4998015,11.3285304 L41.4998015,33.3712849 L6.55260024,33.3712849 L6.55260024,33.3712849 L6.55260024,33.3712849 Z" id="Fill-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
