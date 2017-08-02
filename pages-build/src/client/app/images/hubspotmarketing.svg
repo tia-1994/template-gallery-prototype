@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Marketing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Categories" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Marketing">
+            <ellipse id="Background" fill="#F97600" cx="50" cy="50" rx="50" ry="50"></ellipse>
+            <path d="M28.1625,46.7388 L28.1625,45.525 L26.4625,45.525 L26.4625,43.825 L23.0625,43.825 L23.0625,57.425 L26.4625,57.425 L26.4625,55.725 L28.1625,55.725 L28.1625,54.5112 L31.5625,55.4819 L31.5625,60.825 C31.5625,62.7018 33.084,64.225 34.9625,64.225 L41.7625,64.225 C43.6393,64.225 45.1625,62.7018 45.1625,60.825 L45.1625,59.3681 L74.0625,67.625 L74.0625,33.625 L28.1625,46.7388 Z M41.7625,60.825 L34.9625,60.825 L34.9625,56.4543 L41.7625,58.3974 L41.7625,60.825 Z M70.6625,63.1183017 L29.8625,51.4597 L29.8625,49.7903 L70.6625,38.1334 L70.6625,63.1183017 Z" id="marketing" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
