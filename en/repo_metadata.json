@@ -1,6 +1,19 @@
 {
   "templates": [
     {
+      "name": "E-mail every lead",
+      "description": "send every lead an e-mail",
+      "tags": [
+        "Marketo",
+        "O2C",
+        "Salesforce"
+      ],
+      "summary": {
+        "source": "salesforce",
+        "target": "marketo"
+      }
+    },
+    {
       "name": "Order to cash with SAP",
       "description": "Automate your order to cash workflow when using SAP as the supply chain management system",
       "tags": [
