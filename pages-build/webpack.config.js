@@ -20,7 +20,16 @@ var config = {
       {
         test: /\.scss?/,
         include : APP_DIR,
-        loaders: [ 'style-loader', 'css-loader', 'sass-loader' ]
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+          {
+            loader: 'sass-loader',
+            options: {
+              includePaths: [path.resolve(__dirname, 'node_modules')]
+            }
+          }
+        ]
       },
       {
         test : /\.jsx?/,
@@ -33,6 +42,10 @@ var config = {
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
+  },
+  devServer: {
+    port: 7000,
+    contentBase: path.resolve(__dirname, './src/client'),
   }
 };
 

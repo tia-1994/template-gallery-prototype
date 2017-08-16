@@ -1,5 +1,11 @@
 # template-gallery-prototype
 
+To test locally
+```
+cd pages-build
+npm start
+```
+
 To build
 ```
 cd pages-build

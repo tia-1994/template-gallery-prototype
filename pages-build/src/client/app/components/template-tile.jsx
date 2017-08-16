@@ -1,7 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import css from "./template-tile.scss";
-import Modal from "./modal.jsx";
+import {Button, Modal, CodeSnippet, CopyButton, TextInput} from 'carbon-components-react';
+
 export default class TemplateTile extends React.Component {
 
   constructor() {
@@ -19,24 +20,33 @@ export default class TemplateTile extends React.Component {
     this.setState({showModal: false});
   }
 
-  handleFocus(event) {
-    event.target.select();
+  handleCopy() {
+    console.log("copy to clipboard");
   }
 
   render() {
 
     return (
       <div className="template-tile card">
-        <Modal isOpen={this.state.showModal} onClose={() => this.closeModal()}>
-          <div className="template-tile__use-template-dialog">
-            <h1>Use template</h1>
-            Copy the following URL and import it into App Connect
-            <div className="template-tile__use-template-url">
-              <input className="template-tile__use-template-url-display" type="url" required="" name="sharedLinkUrl" value="https://hosie.github.io/template-gallery-prototype/templates/001.json" readOnly="" tabIndex="0" autoFocus onFocus={this.handleFocus}></input>
-              <button className="template-tile__use-template-url-copy">Copy</button>
+        <Modal
+          open={this.state.showModal}
+          onRequestClose={() => this.closeModal()}
+          passiveModal
+          modalLabel=""
+          modalHeading="Use this template">
+          <div className="bx--modal-content__text">
+            <div className="template-tile__dialog-controls">
+              <p>Order to cash with SAP</p>
+              <CodeSnippet className="template-tile__url-field" type="code">https://asfordmatt.github.io/template-gallery-prototype/templates/001.json</CodeSnippet>
             </div>
+            <br/>
+            <p>How to use this URL:</p>
+            <p>1. Open <a href="https://appconnect.ibmcloud.com/" target="_blank">App Connect</a></p>
+            <p>2. Chose New Flow &gt; From a template</p>
+            <p>3. Paste URL</p>
           </div>
         </Modal>
+
         <div className="template-tile__summary">
           <div className="template-tile__application">
             {
@@ -66,8 +76,7 @@ export default class TemplateTile extends React.Component {
 
         <br></br>
         <div className="template-tile__bottom-bar">
-          <button className="button button--flat template-tile__read-more">Read more</button>
-          <button  onClick={() => this.useTemplate()} className="button button--secondary">Use this Template</button>
+          <Button onClick={() => this.useTemplate()} kind="secondary">Use this Template</Button>
         </div>
         </div>);
   }
