@@ -1,7 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import css from "./template-tile.scss";
-import {Button, Modal, CodeSnippet, CopyButton, TextInput} from 'carbon-components-react';
+import {Button, Link, Modal, CodeSnippet, CopyButton, TextInput, Icon} from 'carbon-components-react';
+import CopyToClipboard from 'react-copy-to-clipboard';
 
 export default class TemplateTile extends React.Component {
 
@@ -25,6 +26,7 @@ export default class TemplateTile extends React.Component {
   }
 
   render() {
+    const url = "https://asfordmatt.github.io/template-gallery-prototype/templates/001.json";
 
     return (
       <div className="template-tile card">
@@ -37,11 +39,13 @@ export default class TemplateTile extends React.Component {
           <div className="bx--modal-content__text">
             <div className="template-tile__dialog-controls">
               <p>Order to cash with SAP</p>
-              <CodeSnippet className="template-tile__url-field" type="code">https://asfordmatt.github.io/template-gallery-prototype/templates/001.json</CodeSnippet>
+              <CopyToClipboard text={url}>
+                <CodeSnippet className="template-tile__url-field" type="code">{url}</CodeSnippet>
+              </CopyToClipboard>
             </div>
             <br/>
             <p>How to use this URL:</p>
-            <p>1. Open <a href="https://appconnect.ibmcloud.com/" target="_blank">App Connect</a></p>
+            <p>1. Open <a className="template-tile__dialog-link" href="https://appconnect.ibmcloud.com/" target="_blank">App Connect <Icon name="icon--launch" fill="#3d70b2" width="18" height="15"/></a></p>
             <p>2. Chose New Flow &gt; From a template</p>
             <p>3. Paste URL</p>
           </div>
@@ -76,7 +80,7 @@ export default class TemplateTile extends React.Component {
 
         <br></br>
         <div className="template-tile__bottom-bar">
-          <Button onClick={() => this.useTemplate()} kind="secondary">Use this Template</Button>
+          <Link onClick={() => this.useTemplate()} className="template-tile__bottom-bar-link">Use this Template <Icon name="icon--link" fill="#3d70b2" width="18" height="15"/></Link>
         </div>
         </div>);
   }
