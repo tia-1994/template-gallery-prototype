@@ -1,6 +1,20 @@
 {
   "templates": [
     {
+      "name": "Salesforce to GSS",
+      "description": "Add a row to a spreadsheet for every new lead in salesforce",
+      "integrationDocUrl": "https://raw.githubusercontent.com/hosie/salesforce-to-gss-template/master/salesforce-to-gss.yaml",
+      "tags": [
+        "GSS",
+        "Lead",
+        "Salesforce"
+      ],
+      "summary": {
+        "source": "salesforce",
+        "target": "googlesheets"
+      }
+    },
+    {
       "name": "E-mail every lead",
       "description": "send every lead an e-mail",
       "tags": [
