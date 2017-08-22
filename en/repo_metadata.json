@@ -11,7 +11,7 @@
       ],
       "summary": {
         "source": "salesforce",
-        "target": "googlesheets"
+        "target": "googlesheet"
       }
     },
     {
