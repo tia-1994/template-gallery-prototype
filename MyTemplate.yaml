@@ -1,0 +1,53 @@
+$integration: 'http://ibm.com/appconnect/integration/v2/integrationFile'
+integration:
+  type: trigger-action
+  trigger-interfaces:
+    trigger-interface-1:
+      type: event-trigger
+      triggers:
+        CREATED:
+          input-context:
+            data: lead
+          assembly:
+            $ref: '#/integration/assemblies/assembly-1'
+          options: {}
+      connector-type: salesforce
+      connection-name: hosieatdotcom@yahoo.com
+  action-interfaces:
+    action-interface-1:
+      type: api-action
+      business-object: worksheetRow
+      connector-type: googlesheet
+      connection-name: hosie.ibm@gmail.com
+      actions:
+        CREATE: {}
+  assemblies:
+    assembly-1:
+      assembly:
+        execute:
+          - create-action:
+              name: Google Sheets Create Row
+              target:
+                $ref: '#/integration/action-interfaces/action-interface-1'
+              map:
+                $map: 'http://ibm.com/appconnect/map/v1'
+                mappings:
+                  - fields.1:
+                      template: '{{$Trigger.LastName}}'
+                  - fields.2:
+                      template: '{{$Trigger.Street}}'
+                  - fields.3:
+                      template: '{{$Trigger.City}}'
+                  - fields.4:
+                      template: '{{$Trigger.Country}}'
+                  - fields.5:
+                      template: '{{$Trigger.Phone}}'
+                  - spreadsheetID:
+                      assign: 1UYks8sW6wwVmwfvpaVOo3d_ziG4p_NDqDdHf3RGIHvs
+                  - worksheetID:
+                      assign: Sheet1
+                input:
+                  - variable: Trigger
+                    $ref: '#/trigger/payload'
+  name: Untitled flow 1
+models: {}
