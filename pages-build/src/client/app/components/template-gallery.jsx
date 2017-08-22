@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import TemplateTile from "./template-tile.jsx";
+
 import css from "./template-gallery.scss";
 
 import 'whatwg-fetch';
@@ -16,7 +17,7 @@ class TemplateGallery extends React.Component {
 
   componentDidMount() {
     console.log("fetching");
-    fetch(`https://hosie.github.io/template-gallery-prototype/en/repo_metadata.json`)
+    fetch(`https://asfordmatt.github.io/template-gallery-prototype/en/repo_metadata.json`)
     .then(response => {
       console.log("got response")
       return response.json();
