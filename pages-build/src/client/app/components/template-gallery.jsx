@@ -17,7 +17,7 @@ class TemplateGallery extends React.Component {
 
   componentDidMount() {
     console.log("fetching");
-    fetch(`https://asfordmatt.github.io/template-gallery-prototype/en/repo_metadata.json`)
+    fetch(`/template-gallery-prototype/en/repo_metadata.json`)
     .then(response => {
       console.log("got response")
       return response.json();
