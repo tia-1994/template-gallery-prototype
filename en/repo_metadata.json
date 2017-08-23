@@ -1,9 +1,9 @@
 {
   "templates": [
     {
-      "name": "Salesforce to GSS",
+      "name": "Tias cool flow",
       "description": "Add a row to a spreadsheet for every new lead in salesforce",
-      "integrationDocUrl": "https://raw.githubusercontent.com/hosie/salesforce-to-gss-template/master/salesforce-to-gss.yaml",
+      "integrationDocUrl": "https://raw.githubusercontent.com/tia-1994/app-connect-flows/master/Another%20cool%20flow%20from%20Tia.yaml",
       "tags": [
         "GSS",
         "Lead",
@@ -13,67 +13,6 @@
         "source": "salesforce",
         "target": "googlesheet"
       }
-    },
-    {
-      "name": "E-mail every lead",
-      "description": "send every lead an e-mail",
-      "tags": [
-        "Marketo",
-        "O2C",
-        "Salesforce"
-      ],
-      "summary": {
-        "source": "salesforce",
-        "target": "marketo"
-      }
-    },
-    {
-      "name": "Order to cash with SAP",
-      "description": "Automate your order to cash workflow when using SAP as the supply chain management system",
-      "tags": [
-        "SAP",
-        "O2C",
-        "Salesforce"
-      ],
-      "summary": {
-        "source": "salesforce",
-        "target": "sapodata"
-      }
-    },
-    {
-      "name": "Lead conversion from Marketo",
-      "description": "Create a new opportunity in salesforce whenever a lead is added to your Marketo lead database",
-      "tags": [
-        "Marketo",
-        "Lead",
-        "Salesforce"
-      ],
-      "summary": {
-        "source": "marketo",
-        "target": "salesforce"
-      }
-    },
-    {
-      "name": "When an Opportunity in Salesforce is Closed - Create associate Order Invoice for Accounting"
-    },
-    {
-      "name": "Order to Cash Cycle"
-    },
-    {
-      "name": "CPQ Cycle"
-    },
-    {
-      "name": "TrailHeaDX Demo with conditional branching",
-      "summary": {
-        "source": "salesforce",
-        "target": "watson"
-      }
-    },
-    {
-      "name": "Sync tickets and comments in (ZenDesk, JIRA, ServiceNow) with Salesforce Case and Comments"
-    },
-    {
-      "name": "Google sheets to salesforce"
     }
   ]
 }
