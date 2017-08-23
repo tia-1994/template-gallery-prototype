@@ -13,6 +13,20 @@
         "source": "salesforce",
         "target": "googlesheet"
       }
+    },
+    {
+      "name": "Another cool flow",
+      "description": "Tia made this",
+      "integrationDocUrl": "https://raw.githubusercontent.com/tia-1994/app-connect-flows/master/Another%20cool%20flow%20from%20Tia.yaml",
+      "tags": [
+        "GSS",
+        "Lead",
+        "Salesforce"
+      ],
+      "summary": {
+        "source": "salesforce",
+        "target": "googlesheet"
+      }
     }
   ]
 }
